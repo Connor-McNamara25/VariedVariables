@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+//Purpose: To demonstrate the usage of variables and integers in how they automate programs.
+//Date: November 30th, 2021
+//Programmer: Connor McNamara (they/them)
+
+namespace Program 
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            string characterName = "John";
+            int characterAge; 
+            characterAge = 35;
+
+            Console.WriteLine("There once was a man named " + characterName); //sends text to console window
+            Console.WriteLine("He was "+characterAge+" years old");
+
+            characterName = "Mike"; // changes variable characterName from = John to = Mike
+            Console.WriteLine("He really liked the name " + characterName);
+            Console.WriteLine("But didn't like being "+characterAge+"");
+             
+            Console.ReadLine(); //keeps console window up  
+        }
+    }
+}
